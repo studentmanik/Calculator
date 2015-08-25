@@ -14,10 +14,10 @@ public class Calculator {
     public double getResult(String f, String l, String s) {
         double fn=0;
         double ln =0;
-        if (f != "" ) {
+        if (f.length() != 0 ) {
              fn = Double.parseDouble(f);
            
-        }if (l != "") {
+        }if (l.length() != 0) {
               ln = Double.parseDouble(l);
         }
 
